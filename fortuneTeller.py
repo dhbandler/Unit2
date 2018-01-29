@@ -1,11 +1,13 @@
 #Daniel
 #1/29/18
 #fortuneTeller.py displays fortune
-print("Take these colors: red and blue"
+print("Take these colors: red and blue")
 
-col=int(input("input the color of your choice"))
+col=input("input the color of your choice ")
 
-num=int(input("Pick a number between 1-4")
+color=col.lower()
+
+num=int(input("Pick a number between 1-4" ))
 
 if color=="red" and num==1:
     print("You will get hit by an 18 wheeler and die")
@@ -25,9 +27,9 @@ elif color=="blue" and num==1:
 elif color=="blue" and num==2:
     print("Obesity claims you")
     
-elif color=="blue and num==3:
+elif color=="blue" and num==3:
     print("Cancer. Sorry. You have it")
 
 else:
-    print("You disappear)
+    print("You disappear")
     
