@@ -24,4 +24,5 @@ elif choi == 4:
     cel=float(input("Input how many degrees in Celsius you want to convert "))
     print(cel*(9/5)+32, "degrees F")
 
-
+else:
+    print(" How hard is it to type an ineger between 1 and 4 you silly piece of Broccoli?")
