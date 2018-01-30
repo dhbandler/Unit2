@@ -18,6 +18,8 @@ if answ1== "y":
                 print("You get gobbled up by a scary monster. How did you not see this coming,? I thought you were smarter than this")
             elif answ4=="n":
                 print("Well, you waited until the last minute. Congrats on surviving, and not being eaten!")
+            else:
+                print("Well since you couldn't make up your mind, you just stood there like an idiot until a rock fell from the ceilling of the cave and clove your skull in two")
             
         elif answ3=="n":
             print("You leave the cave and survive. Congrats, you are not dumb")
