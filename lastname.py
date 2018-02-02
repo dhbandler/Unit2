@@ -4,5 +4,7 @@
 
 name=input("What is your last name? ")
 
-let=name[0]
-
+if name<"N":
+    print("First half")
+else:
+    print("Second half")
